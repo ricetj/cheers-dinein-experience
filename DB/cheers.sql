@@ -26,7 +26,7 @@ restaurant_country varchar(25) NOT NULL,
 restaurant_phone INT NOT NULL,
 restaurant_email varchar(20) NOT NULL,
 restaurant_website varchar(20) NOT NULL,
-PRIMARY KEY(restaurant_id,
+PRIMARY KEY(restaurant_id)
 );
 
 
@@ -42,8 +42,8 @@ FOREIGN KEY (employee_restaurant_id) REFERENCES restaurant(restaurant_id)
 );
 
  # adding the coulmn to the restraunt table as well as the foreign key contract
- ALTER TABLE restaurant
-ADD restaurant_manager int NOT NULL AFTER restaurant_website
+ALTER TABLE restaurant
+ADD restaurant_manager int NOT NULL AFTER restaurant_website;
  
  ALTER TABLE restaurant
 ADD CONSTRAINT restaurant_manager
@@ -74,7 +74,7 @@ FOREIGN KEY (menu_id) REFERENCES menu(menu_id)
 );
 
 
-CREATE TABLE table
+CREATE TABLE tables
 (table_id INT NOT NULL,
 restaurant_id INT NOT NULL,
 table_notes TINYTEXT,
@@ -93,7 +93,7 @@ cust_id INT NOT NULL,
 table_id INT NOT NULL,
 PRIMARY KEY(order_id),
 FOREIGN KEY (cust_id) REFERENCES customers(cust_id),
-FOREIGN KEY (table_id) REFERENCES table(table_id)
+FOREIGN KEY (table_id) REFERENCES tables(table_id)
 );
 
 CREATE TABLE ordered_items

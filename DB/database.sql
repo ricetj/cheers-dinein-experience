@@ -1,16 +1,6 @@
 # CREATE database `cheers_dineIn_experience`;
-use cheers_dineIn_experience;
+CREATE SCHEMA `cheers_dineIn_experience` ;
 
-drop table if exists payments;
-drop table if exists reviews;
-drop table if exists ordered_items;
-drop table if exists orders;
-drop table if exists dishes;
-drop table if exists menu;
-drop table if exists seat_table;
-drop table if exists manager;
-drop table if exists restaurant;
-drop table if exists accounts;
 
 create table accounts
 (

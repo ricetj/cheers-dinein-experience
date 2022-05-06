@@ -19,6 +19,14 @@ INSERT INTO manager VALUES
 ('Terence', 'Rice');
 
 
+INSERT INTO seat_table VALUES (1);
+INSERT INTO seat_table VALUES (2);
+INSERT INTO seat_table VALUES (3);
+INSERT INTO seat_table VALUES (4);
+INSERT INTO seat_table VALUES (5);
+INSERT INTO seat_table VALUES (6);
+
+
 --Updated menu values
 INSERT INTO menu VALUES 
 (1, 'Breakfast', 'Available Between 6:00AM and 10:00AM');

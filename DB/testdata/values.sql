@@ -18,15 +18,6 @@ INSERT INTO manager VALUES
 INSERT INTO manager VALUES 
 ('Terence', 'Rice');
 
---The values in here relate to the dishes table.  Would suggest removing and using menu values in lines 31-37 
-INSERT INTO menu VALUES 
-(11, 'Tomato soup', 'Taste like the soup my mother would make!');
-INSERT INTO menu VALUES 
-(22, 'House Salad', 'Seemed a bit pricy for this kind of salad');
-INSERT INTO menu VALUES 
-(33, 'Tagliatelle', 'I almost ordered another one it was so good');
-INSERT INTO menu VALUES 
-(44, 'Wedding soup', 'Died and went to heaven after eating this');
 
 --Updated menu values
 INSERT INTO menu VALUES 

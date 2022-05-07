@@ -1,13 +1,4 @@
 
-INSERT INTO accounts VALUES 
-(001, 'John', 'Smith', 'jsmith', 123);
-INSERT INTO accounts VALUES 
-(002, 'Lin', 'Xiao', 'lxiao', 888);
-INSERT INTO accounts VALUES 
-(003, 'Cho', 'Lee', 'clee', 678);
-INSERT INTO accounts VALUES 
-(004, 'Maria', 'Perez', 'mperez', 987);
-
 
 INSERT INTO manager VALUES 
 ('Sophia', 'Kim');

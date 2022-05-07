@@ -73,7 +73,7 @@ create table ordered_items
 create table payments
 (
     payment_id     int primary key auto_increment not null,
-    payment_cc_num int                            not null,
+    payment_cc_num varchar(24)                    not null,
     payment_cc_exp datetime                       not null,
     payment_cc_cvv int                            not null,
     payment_cc_zip int                            not null,

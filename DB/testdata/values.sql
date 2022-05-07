@@ -27,15 +27,6 @@ INSERT INTO seat_table VALUES (5);
 INSERT INTO seat_table VALUES (6);
 
 
--- Roles Test Data
-insert into roles values (1,'Manager',1)
-,(2,'Runner',1)
-,(3,'Cook',1)
-,(4,'Host',1)
-
-;
-
-
 --Updated menu values
 INSERT INTO menu VALUES 
 (1, 'Breakfast', 'Available Between 6:00AM and 10:00AM');
@@ -227,9 +218,6 @@ VALUES (1,1,14,'CLOSED','2022-04-01 12:15:34','Extra Onions',98,6)
 ;
 
 
---Payments Table, need to alter credit card number to string.  Logical credit card lengths were erroring out on type int
-alter table payments
-modify payment_cc_num varchar(24)
 ;
 INSERT INTO payments VALUES
 -- (1,'63346544490','2022-12-31 12:00:00',123,12345,1),

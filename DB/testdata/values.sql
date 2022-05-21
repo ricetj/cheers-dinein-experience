@@ -312,4 +312,21 @@ INSERT INTO payments VALUES
 (99,'5418264659884','2022-12-31 12:00:00',221,12443,99),
 (100,'9133056791448','2022-12-31 12:00:00',222,12444,100);
 
+INSERT INTO ordered_items VALUES
+(2, 2,'closed','', 16.79, 1),
+(3, 3,'closed','', 11.19, 1),
+(4, 4,'closed','', 13.89, 1),
+(5, 5,'closed','', 15.45, 1),
+(6, 6,'closed','', 12.19, 1),
+(7, 7,'closed','', 13.12, 1);
+
+INSERT INTO reviews VALUES
+(2, 5,'like how my mother would make it', 2),
+(3, 3,'was a bit overdone', 3),
+(4, 2,'alittle dry for me', 4),
+(5, 5,'would order again', 5),
+(6, 2,'did not like this one as much', 6),
+(7, 5,'very good', 7);
+
+
 
